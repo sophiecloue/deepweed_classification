@@ -85,7 +85,7 @@ Project/
 
 Grad-CAM heatmaps reveal what each model focuses on when classifying weed species. The comparison between CNN and Transformer architectures shows distinct attention patterns — CNNs tend to focus on local texture features while Swin-T captures broader spatial structure.
 
-![Grad-CAM Example](results/gradcam_examples/gradcam_example.png)
+![Grad-CAM Example](results/gradcam_examples/Lntna_gradcam.png)
 
 ## Confusion Matrices
 
