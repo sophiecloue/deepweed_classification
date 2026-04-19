@@ -1,0 +1,12 @@
+torch
+torchvision
+gradio
+huggingface_hub
+Pillow
+numpy
+scikit-learn
+matplotlib
+seaborn
+optuna
+tqdm
+pandas
