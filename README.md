@@ -54,6 +54,7 @@ The dataset is publicly available and can be downloaded from:
 - **Kaggle:** [kaggle.com/datasets/imsparsh/deepweeds](https://www.kaggle.com/datasets/imsparsh/deepweeds)
 
 After downloading, organise your folder structure as follows:
+```
 Project/
 ├── 300x300/          ← Annotated dataset (with bounding box XMLs)
 │   ├── train/
@@ -65,7 +66,7 @@ Project/
 └── test/            ← Non-annotated dataset
 │   ├── images/
 │   └── train_labels.csv
-
+```
 **DeepWeeds** — 17,509 unique images across 9 classes (8 invasive weed species + Negative class), sourced from 8 field sites across Queensland, Australia.
 
 | Class | Species | Images |
@@ -122,6 +123,7 @@ Grad-CAM heatmaps reveal what each model focuses on when classifying weed specie
 </details>
 
 ## Repository Structure
+```
 deepweed_classification/
 │
 ├── notebooks/
@@ -139,7 +141,7 @@ deepweed_classification/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ## Training Methodology
 
 - **Framework:** PyTorch with pretrained ImageNet weights (transfer learning)
