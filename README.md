@@ -15,9 +15,9 @@ Try the classifier — upload any field image and compare predictions across all
 | EfficientNet-B3 | With BBox | 0.9571 | 0.9489 | 0.9442 | 0.9463 |
 | EfficientNet-B3 | Without BBox | 0.9532 | 0.9378 | 0.9428 | 0.9401 |
 | EfficientNet-V2-S | With BBox | 0.9491 | 0.9331 | 0.9403 | 0.9365 |
-| EfficientNet-V2-S | Without BBox | **0.9597** | **0.9537** | 0.9440 | **0.9486** |
+| EfficientNet-V2-S | Without BBox | 0.9597 | 0.9537 | 0.9440 | 0.9486 |
 | Swin Transformer | With BBox | 0.9491 | 0.9331 | 0.9403 | 0.9365 |
-| Swin Transformer | Without BBox | 0.9597 | 0.9537 | **0.9440** | 0.9486 |
+| Swin Transformer | Without BBox | 0.9597 | 0.9537 | 0.9440 | 0.9486 |
 
 > **Primary metric:** Macro F1 Score (accounts for class imbalance across 9 weed species)
 
